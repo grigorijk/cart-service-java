@@ -7,7 +7,7 @@ VOLUME /tmp
 EXPOSE 8080
 
 # The application's jar file
-ARG JAR_FILE=target/product-service-1.0.0-SNAPSHOT.jar
+ARG JAR_FILE=target/cart-service-1.0.0.jar
 
 # Add the application's jar to the container
 ADD ${JAR_FILE} executable.jar
