@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: cart-service-X-ingress
-  namespace: lab-london
+  namespace: lab-malmo
 spec:  
   rules:
     - http:
